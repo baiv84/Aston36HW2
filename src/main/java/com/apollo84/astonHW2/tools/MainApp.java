@@ -3,7 +3,7 @@ package com.apollo84.astonHW2.tools;
 import java.util.*;
 
 //On develop tree -- excluded
-//
+//...
 public class MainApp {
     private static final int YEAR = 2000;
 
