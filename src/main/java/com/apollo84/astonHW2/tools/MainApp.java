@@ -18,7 +18,7 @@ public class MainApp {
                 .flatMap(List::stream)
 
                 // сортируем общий список книг по количеству страниц
-                .sorted((o1, o2) -> o1.getPageNumber().compareTo(o2.getPageNumber()))
+                .sorted(Comparator.comparing(Book::getPageNumber))
 
                 // оствляем только уникальные книги
                 .distinct()
